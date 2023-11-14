@@ -23,7 +23,7 @@ const NoteDocument = () => {
           setNotes={setNotes}
         />
       )}
-      <ListOfNotes notes={notes} />
+      <ListOfNotes notes={notes} setNotes={setNotes} />
     </div>
   );
 };

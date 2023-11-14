@@ -10,6 +10,7 @@ const AddNote = ({ showModal, setShowModal, notes, setNotes }) => {
     e.preventDefault();
 
     const newSubmittedNote = {
+      id: Math.random() * 1000,
       title,
       text,
     };
