@@ -1,0 +1,11 @@
+.document {
+  text-align: center;
+}
+
+.addbutton {
+  align-items: center;
+  width: 200px;
+  background-color: bisque;
+  height: 50px;
+  border-radius: 30px;
+}

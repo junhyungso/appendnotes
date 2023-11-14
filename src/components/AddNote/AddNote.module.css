@@ -1,0 +1,19 @@
+.addmodal {
+  align-items: center;
+  box-shadow:0 0 0 1600px rgba(0,0,0,0.65);
+}
+.closebutton {
+  align-items: left;
+}
+
+.title {
+  margin: 20px 10px;
+}
+
+.text {
+  margin: 20px 10px;
+}
+
+.submitbutton {
+  margin: 10px;
+}
