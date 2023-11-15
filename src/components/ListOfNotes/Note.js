@@ -1,6 +1,6 @@
 import styles from './Note.module.css';
 
-const Note = ({ note, handleCardClick }) => {
+const Note = ({ note, handleCardClick, handleEditNoteClick }) => {
   return (
     <div
       tabIndex={-1}
@@ -9,6 +9,7 @@ const Note = ({ note, handleCardClick }) => {
     >
       <h3>{note.title}</h3>
       <p>{note.text}</p>
+      <button onClick={() => handleEditNoteClick(note.id)}>Edit</button>
     </div>
   );
 };

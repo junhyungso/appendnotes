@@ -13,6 +13,8 @@ const ListOfNotes = ({ notes, setNotes }) => {
     }
   };
 
+  const handleEditNoteClick = (id) => {};
+
   const handleSwap = (secondId) => {
     const firstNote = notes.filter((note) => {
       return note.id === firstNoteSelect;
@@ -38,7 +40,11 @@ const ListOfNotes = ({ notes, setNotes }) => {
   return notes.map((note, index) => {
     return (
       <ul key={index} className={styles.cardslist}>
-        <Note note={note} handleCardClick={handleCardClick} />
+        <Note
+          note={note}
+          handleCardClick={handleCardClick}
+          handleEditNoteClick={handleEditNoteClick}
+        />
       </ul>
     );
   });

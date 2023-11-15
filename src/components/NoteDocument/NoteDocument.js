@@ -15,6 +15,9 @@ const NoteDocument = () => {
           Add New Note
         </button>
       </div>
+      <div>
+        <h4>Click Two Notes to Swap Them!</h4>
+      </div>
       {showModal && (
         <AddNote
           showModal={showModal}

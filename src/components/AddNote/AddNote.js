@@ -2,7 +2,6 @@ import { useState } from 'react';
 import styles from './AddNote.module.css';
 
 const AddNote = ({ showModal, setShowModal, notes, setNotes }) => {
-  // const [isModalOpen, setIsModalOpen] = useState(true);
   const [title, setTitle] = useState('');
   const [text, setText] = useState('');
 
