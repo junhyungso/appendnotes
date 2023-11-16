@@ -1,10 +1,10 @@
 .notecard {
-  border: 3px solid black;
   border-radius: 20px;
   width: 200px;
   height: 250px;
+  background-color: #fef68a;
 }
 
 .notecard:focus {
-  border: 10px solid pink;
+  border: 5px solid rgba(255, 0, 0, .65);
 }
